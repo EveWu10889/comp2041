@@ -1,0 +1,30 @@
+Date        Start       Stop        Activity        Comments
+2018.9.25   13:00       13:20       coding          implement making the init directory
+2018.9.25   13:30       14:00       coding          implement making the special output for init again
+2018.9.25   14:20       18:00       coding          implement basic function of adding
+2018.9.25   19:00       20:00       debugging       making an arrangement of the codes for some errors and style
+2018.9.25   20:20       21:50       coding          implement output for no previous init of adding
+2018.9.26   9:00        10:00       coding          implement output for non-existent file of adding
+2018.9.26   10:20       12:00       debugging       making an arrangement of the codes for some errors and style
+2018.9.26   14:00       16:00       coding          implement basic function of showing
+2018.9.26   17:00       19:00       debugging       making an arrangement of the codes for some errors
+2018.9.26   19:20       21:40       coding          implement making the special output for errors of showing
+2018.9.27   13:00       15:00       coding          implement basic operation of non-changed committing
+2018.9.27   16:00       21:00       debugging       making an arrangement of the codes for totally implementing non-changed committing
+2018.9.29   9:00        10:30       debugging       making an arrangement of the codes for implementing basic committing and non-changed committing successfully
+2018.9.29   16:00       18:00       coding          implement basic functions of committing all files
+2018.9.29   18:30       20:30       debugging       making an arrangement of the codes for totally implementing committing all files
+2018.9.29   20:40       22:00       debugging       implement basic functions of committing after adding files
+2018.9.30   10:00       12:00       coding          implement basic functions of showing files
+2018.9.30   13:00       15:00       debugging       making an arrangement of the codes for totally implementing showing files after various operation
+2018.10.1   9:00        11:00       coding          writing some test files to test commit/show/add/log functions
+2018.10.1   13:00       15:00       coding          implement basic functions of removing files
+2018.10.1   15:00       15:40       debugging       making an arrangement of the codes for implementing the error output of removing files
+2018.10.2   12:00       14:00       coding          implement the functions of removing files with adding operation
+2018.10.2   14:10       16:00       coding          implement the functions of committing files with removing operation
+2018.10.2   19:00       22:00       debugging       making an arrangement of the codes for printing right error messages by removing commands
+2018.10.3   9:00        12:00       coding          implement the functions of removing files with --cached option
+2018.10.3   13:00       15:00       testing         exploring the function of every test command 
+2018.10.3   18:00       20:00       coding          writing test files 
+2018.10.3   20:00       24:00       debugging       making a whole arrangement of the codes for a good style and exact outputs
+

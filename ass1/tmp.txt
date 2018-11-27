@@ -1,0 +1,79 @@
+ my $dir = ".legit/tem"; 
+        my $file; 
+        my @dir;        
+        opendir (DIR, $dir) or die "can't open the directory!"; 
+        @dir = readdir DIR; 
+        foreach $file (@dir) {
+            
+            if ( $file =~ /[\d+]+/) {
+                #print "$file";
+                my $sub_dir = ".legit/tem/$file";
+                my $sub_file; 
+                my @sub_dir;        
+                opendir (DIR, $sub_dir) or die "can't open the directory!"; 
+                @sub_dir = readdir DIR;
+                $max = 0;
+                foreach $sub_file (@sub_dir){
+                    $num = $sub_file;
+                    if ($num =~ /[0-9]+/) {
+                        $num =~ s/[a-z]+//i;
+                        #print $num; 
+                    }
+                    #print "$num";
+                    if ($num ge $max) {
+                        $max = $num;
+                    }
+                
+                }
+                #print "***$max\n";
+                if ($max != 0) {
+                   $file =~ s/[0-9]+//g; 
+                print $file;
+                open my $in, "<", ".legit/tem/$file$c/$file$max";
+                my $var = 0;
+                my $new_file = ".legit/commit/$file$var";
+                while (-e $new_file) {
+                    $var ++;
+                    $new_file = ".legit/commit/$file$var";
+                
+                }                
+                open my $out, ">", "$new_file"; 
+                print $out (<$in>);
+                close $out;
+                close $in; 
+                
+                my @new_array;
+                my @old_array;
+                
+                open my $rec, "<", "$new_file";
+                $var -= 1;
+                my $old_file = ".legit/commit/$file$var"; 
+                open my $pre, "<", "$old_file"; 
+                while ($new_line = <$rec>){
+                    chomp $new_line;
+                    #print "$new_line\n";
+                    push (@new_array,"$new_line");
+                }
+                while ($old_line = <$pre>){
+                    chomp $old_line;
+                    #print "$old_line\n";
+                    push (@old_array,"$old_line");
+                } 
+                
+                if (@old_array == @new_array) {
+                    for(my $i = 0; $i < @new_array; $i++) {
+                        if($new_array[$i] != $old_array[$i]) {
+                                $flag = 1;
+                        }
+                    }
+                } 
+               if( $flag == "0" ){
+                    print "nothing to commit\n";
+                    exit;    
+                }  
+                       
+              }
+                
+            }                                                 
+        } 
+   

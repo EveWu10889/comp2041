@@ -1,0 +1,15 @@
+<html version="2.0">
+<head>
+<title>htm_file</title>
+</head>
+<body>
+<center>
+<h1>htm_file</h1>
+<br><br>
+<img ismap usemap="#htm_file" src="htm_file.gif" border=0>
+<map name="htm_file">
+  <area href="htm_file" shape=rect coords="0,0,611,791">
+</map>
+</center>
+</body>
+</html>

@@ -1,0 +1,15 @@
+COMP1511|5013566|Xin, Mackenzie Darren                             |3648/2|COMPI1 MTRNAH|071.800|18s2|19910428|M
+COMP9902|5079970|Park, Xue Hannah Vanessa                          |8543  |ELECAH       |079.333|18s2|19900209|F
+COMP1511|5059072|Chung, Michael Jia Tianyu                         |3778/1|COMPCS       |057.250|18s2|19990801|M
+COMP1521|5060774|Lim, Stephanie Lauren                             |3785/1|COMPA1       |000.000|18s2|19890113|F
+COMP1531|5060774|Lim, Stephanie Lauren                             |3785/1|COMPA1       |000.000|18s2|19890113|F
+COMP2521|5060774|Lim, Stephanie Lauren                             |3785/1|COMPA1       |000.000|18s2|19890113|F
+COMP9020|5060538|Bi, Samuel Shiyu                                  |6021  |COMPA1       |078.125|18s2|19911004|M
+COMP9021|5060538|Bi, Samuel Shiyu                                  |6021  |COMPA1       |078.125|18s2|19911004|M
+COMP9902|5072116|Hu, Kai Zhi Patrick                               |3707/1|SENGAH       |070.750|18s2|19930424|M
+COMP1511|5036926|Fang, Rebecca Lauren                              |8543  |COMPCS       |000.000|18s2|20000921|F
+COMP1511|5036926|Fang, Rebecca Lauren                              |8543  |COMPCS       |000.000|17s2|20000921|F
+COMP9021|5003517|Shah, Xiang Anthony                               |5543  |COMPCS       |000.000|17s2|19941103|M
+COMP2041|5035559|Wu, Yi                                            |8543  |ELECAH       |061.500|17s2|19860122|F
+COMP2041|5079966|Park, Vanessa Hannah Vanessa                          |8543  |ELECAH       |079.333|18s2|19900209|F
+COMP9041|5079968|Park, Vanessa Hannah Vanessa                          |8543  |ELECAH       |079.333|18s2|19900209|F
